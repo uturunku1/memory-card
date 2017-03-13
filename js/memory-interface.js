@@ -8,10 +8,18 @@ $(document).ready(function() {
     var playerone= new Player(player1);
     var playertwo= new Player(player2);
 
-    $('#player-one-name').text(player1);
-    console.log(player1);
-    console.log($('#player-one-name').text(player1));
-    $('#player-two-name').text(player2);
+
+    $('#player-one-name').text(playerone.getName());
+    $('#player-two-name').text(playertwo.getName());
+    $('#player-one-score').text(playerone.getScore());
+    $('#player-two-score').text(playertwo.getScore());
+    playerone.getCards().forEach(function(card){
+      $('#player-one-cards').append('foundcards');
+    });
+
+    playertwo.getCards().forEach(function(card){
+      $('#player-two-cards').append('foundcards');
+    });
 
   });
 });
