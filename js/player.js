@@ -8,13 +8,17 @@ function Player(playername)
 Player.prototype.getName = function () {
   return this.playername;
 };
+
 Player.prototype.getScore = function () {
   return this.score;
 };
+
 Player.prototype.getCards = function () {
   return this.cards;
 };
-Player.prototype.addPair = function (imgname) {
-  this.cards.push(imgname);
+
+Player.prototype.addPair = function (card_name) {
+  this.cards.push(card_name);
 };
+
 exports.playerModule = Player;
