@@ -1,0 +1,12 @@
+.col-md-2{
+  padding: 3px;
+  margin: 10px;
+  border: 2px solid green;
+}
+img{
+  max-width: 100%;
+  
+}
+h1{
+  color: red;
+}
