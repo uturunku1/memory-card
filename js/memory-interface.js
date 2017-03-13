@@ -29,6 +29,37 @@ $(document).ready(function() {
     playertwo.getCards().forEach(function(card){
       $('#player-two-cards').append('foundcards');
     });
-
   });
+  $('#box1').click(function() {
+    $('#position-1 img').toggle()
+  })
+  $('#box2').click(function() {
+    $('#position-2 img').toggle()
+  })
+  $('#box3').click(function() {
+    $('#position-3 img').toggle()
+  })
+  $('#box4').click(function() {
+    $('#position-4 img').toggle()
+  })
+  $('#box5').click(function() {
+    $('#position-5 img').toggle()
+  })
+  $('#box6').click(function() {
+    $('#position-6 img').toggle()
+  })
+  $('#box7').click(function() {
+    $('#position-7 img').toggle()
+  })
+  $('#box8').click(function() {
+    $('#position-8 img').toggle()
+  })
+  $('#box9').click(function() {
+    $('#position-9 img').toggle()
+  })
+  $('#box10').click(function() {
+    $('#position-10 img').toggle()
+  })
+
+
 });

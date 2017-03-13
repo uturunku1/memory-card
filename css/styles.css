@@ -4,10 +4,12 @@
   border: 2px solid green;
   background-image: url("./../img/background.jpg");
   min-height: 200px;
+
 }
 img{
   max-width: 100%;
   min-height: 200px;
+  display: none;
 
 }
 h1{
